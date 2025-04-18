@@ -13,7 +13,7 @@ TC-T201 Login success
     Capture Page Screenshot 
     Input Text  email   nawarat25@gmail.com
     Capture Page Screenshot
-    Input Text  password   1339900785631
+    Input Text  idcard   1339900785631
     Capture Page Screenshot
     Sleep   2
     Capture Page Screenshot
@@ -34,7 +34,7 @@ TC-T202 Login success admin
     Capture Page Screenshot 
     Input Text  email   admin@gmail.com
     Capture Page Screenshot
-    Input Text  password   1111111111111
+    Input Text  idcard   1111111111111
     Capture Page Screenshot
     Sleep   2
     Capture Page Screenshot

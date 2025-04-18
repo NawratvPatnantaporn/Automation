@@ -38,7 +38,7 @@ TC-T205 Login with only password
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
     Sleep    2
     Capture Page Screenshot 
-    Input Text  password   1339900785631
+    Input Text  idcard   1339900785631
     Sleep    2
     Capture Page Screenshot
     Click Button    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
@@ -55,7 +55,7 @@ TC-T206 Login with invalid email
     Capture Page Screenshot 
     Input Text  email   nawarat29@gmail.com
     Capture Page Screenshot
-    Input Text  password   1339900785631
+    Input Text  idcard   1339900785631
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
@@ -73,7 +73,7 @@ TC-T207 Login with invalid password
     Capture Page Screenshot 
     Input Text  email   nawarat25@gmail.com
     Capture Page Screenshot
-    Input Text  password   1339900785632
+    Input Text  idcard   1339900785632
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
@@ -91,7 +91,7 @@ TC-T208 Logged in with correct email and password but account was deleted
     Capture Page Screenshot 
     Input Text  email   nawarat25@gmail.com
     Capture Page Screenshot
-    Input Text  password   1339900785631
+    Input Text  idcard   1339900785631
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot

@@ -8,7 +8,7 @@ pipeline {
           $class: 'GitSCM',
           branches: [[name: '*/main']],
           doGenerateSubmoduleConfigurations: false,
-          userRemoteConfigs: [[credentialsId: 'nawarat', url: 'https://github.com/NawratvPatnantaporn/Automation.git']]
+          userRemoteConfigs: [[credentialsId: 'nawarat', url: 'https://github.com/NawratvPatnantaporn/Project.git']]
         ])
       }
     }
@@ -30,6 +30,13 @@ pipeline {
 }
     stage('Test') {
       steps {
+        print "clone Automation Testing Project"
+        checkout([
+          $class: 'GitSCM',
+          branches: [[name: '*/main']],
+          doGenerateSubmoduleConfigurations: false,
+          userRemoteConfigs: [[credentialsId: 'nawarat', url: 'https://github.com/NawratvPatnantaporn/Automation.git']]
+        ])
         echo "Installing dependencies"
         sh "pip install robotframework robotframework-seleniumlibrary"
 

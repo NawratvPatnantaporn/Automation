@@ -20,8 +20,6 @@ TC-T101 Register Employees Account
     Capture Page Screenshot
     Input Text  phonenumber   0435216221
     Capture Page Screenshot
-    Input Text  password   1339900785631
-    Capture Page Screenshot
     Sleep   2
     Capture Page Screenshot
     Click Button    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
