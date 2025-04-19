@@ -300,7 +300,7 @@ TC-S503 View Profile Employees
     Sleep    2s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[2]/table/tbody/tr[1]/td[5]/div/a[2]
-    Sleep    5s
+    Sleep    10s
     Capture Page Screenshot
 
 TC-S504 Edit Employees Success
