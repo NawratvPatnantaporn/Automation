@@ -230,7 +230,7 @@ TC-S401 Create Employees Success
     Sleep    2s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[2]/form/button
-    Sleep    5s
+    Sleep    3s
     Capture Page Screenshot
 
 TC-S501 View Employees List
@@ -250,7 +250,7 @@ TC-S501 View Employees List
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
     Sleep    2s
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[2]
-    Sleep    7s
+    Sleep    5s
     Capture Page Screenshot
 
 TC-S502 Delete Information Employees
@@ -300,7 +300,7 @@ TC-S503 View Profile Employees
     Sleep    2s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[2]/table/tbody/tr[1]/td[5]/div/a[2]
-    Sleep    10s
+    Sleep    7s
     Capture Page Screenshot
 
 TC-S504 Edit Employees Success
@@ -350,7 +350,7 @@ TC-S504 Edit Employees Success
     ${confirm_button}=    Set Variable    //button[contains(@class,'swal2-confirm') and contains(text(),'ใช่, บันทึกเลย!')]
     Wait Until Element Is Visible    ${confirm_button}    5s
     Click Element    ${confirm_button}
-    Sleep    8s
+    Sleep    6s
     Capture Page Screenshot
 
 TC-S601 View Admin Dashboard
@@ -370,7 +370,7 @@ TC-S601 View Admin Dashboard
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
     Sleep    2s
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[3]
-    Sleep    10s
+    Sleep    7s
     Capture Page Screenshot
 
 TC-S701 View Attendent
@@ -390,7 +390,7 @@ TC-S701 View Attendent
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
     Sleep    2s
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[5]
-    Sleep    7s
+    Sleep    5s
     Capture Page Screenshot
     Input Text   //*[@id="root"]/div/div[4]/div/div/div[2]/div[1]/input  19/04/2025
     Sleep   5
