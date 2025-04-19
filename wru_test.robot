@@ -353,6 +353,49 @@ TC-S504 Edit Employees Success
     Sleep    8s
     Capture Page Screenshot
 
+TC-S601 View Admin Dashboard
+    Open Browser    http://localhost:5173/login    Chrome
+    Maximize Browser Window
+    Sleep    2s
+    Capture Page Screenshot
+    Input Text    email    admin@gmail.com
+    Sleep    2s
+    Capture Page Screenshot
+    Input Password    idcard    1111111111111
+    Sleep    2s
+    Capture Page Screenshot
+    Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
+    Sleep    2s
+    Capture Page Screenshot
+    Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
+    Sleep    2s
+    Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[3]
+    Sleep    10s
+    Capture Page Screenshot
+
+TC-S701 View Attendent
+    Open Browser    http://localhost:5173/login    Chrome
+    Maximize Browser Window
+    Sleep    2s
+    Capture Page Screenshot
+    Input Text    email    admin@gmail.com
+    Sleep    2s
+    Capture Page Screenshot
+    Input Password    idcard    1111111111111
+    Sleep    2s
+    Capture Page Screenshot
+    Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
+    Sleep    2s
+    Capture Page Screenshot
+    Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
+    Sleep    2s
+    Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[5]
+    Sleep    7s
+    Capture Page Screenshot
+    Input Text   //*[@id="root"]/div/div[4]/div/div/div[2]/div[1]/input  19/04/2025
+    Sleep   5
+    Capture Page Screenshot
+
 TC-T207 Logged in with correct email and password but account was deleted
     Open Browser    http://localhost:5173/  Chrome  
     Maximize Browser Window
