@@ -239,10 +239,8 @@ TC-S501 View Employees List
     Sleep    2s
     Capture Page Screenshot
     Input Text    email    admin@gmail.com
-    Sleep    2s
     Capture Page Screenshot
     Input Password    idcard    1111111111111
-    Sleep    2s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
     Sleep    2s
@@ -259,10 +257,8 @@ TC-S502 Delete Information Employees
     Sleep    2s
     Capture Page Screenshot
     Input Text    email    admin@gmail.com
-    Sleep    2s
     Capture Page Screenshot
     Input Password    idcard    1111111111111
-    Sleep    2s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
     Sleep    2s
@@ -300,7 +296,7 @@ TC-S503 View Profile Employees
     Sleep    2s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[2]/table/tbody/tr[1]/td[5]/div/a[2]
-    Sleep    7s
+    Sleep    5s
     Capture Page Screenshot
 
 TC-S504 Edit Employees Success
@@ -370,7 +366,7 @@ TC-S601 View Admin Dashboard
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
     Sleep    2s
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[3]
-    Sleep    7s
+    Sleep    10s
     Capture Page Screenshot
 
 TC-S701 View Attendent
@@ -390,7 +386,7 @@ TC-S701 View Attendent
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
     Sleep    2s
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[5]
-    Sleep    5s
+    Sleep    7s
     Capture Page Screenshot
     Input Text   //*[@id="root"]/div/div[4]/div/div/div[2]/div[1]/input  19/04/2025
     Sleep   5
