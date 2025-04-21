@@ -103,7 +103,7 @@ TC-T105 Register with already exists phonenumber
     Input Text  department   IT
     Sleep   1
     Capture Page Screenshot
-    Input Text  idcard   1339900768392
+    Input Text  idcard   1339900768393
     Sleep   1
     Capture Page Screenshot
     Input Text  phonenumber   0935680745
