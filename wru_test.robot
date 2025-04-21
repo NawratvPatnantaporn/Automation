@@ -219,18 +219,18 @@ TC-S401 Create Employees Success
     Sleep    2s
     Capture Page Screenshot
     Input Text    //*[@id="root"]/div/div[4]/div/div/div[2]/form/div/div[1]/input    petchza@spumail.net
-    Sleep    2s
+    Sleep    3s
     Input Text    //*[@id="root"]/div/div[4]/div/div/div[2]/form/div/div[2]/input    Pathomporn LK
-    Sleep    2s
+    Sleep    3s
     Select From List By Label    //*[@id="department"]    IT
-    Sleep    2s
+    Sleep    3s
     Input Text    //*[@id="root"]/div/div[4]/div/div/div[2]/form/div/div[4]/input    1119600053791
-    Sleep    2s
+    Sleep    3s
     Input Text    //*[@id="root"]/div/div[4]/div/div/div[2]/form/div/div[5]/input    0624922193
-    Sleep    2s
+    Sleep    3s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[2]/form/button
-    Sleep    3s
+    Sleep    5s
     Capture Page Screenshot
 
 TC-S501 View Employees List
@@ -323,22 +323,22 @@ TC-S504 Edit Employees Success
     Capture Page Screenshot
     Clear Element Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[1]/input
     Input Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[1]/input    pondza@spumail.net
-    Sleep    2s
+    Sleep    3s
     Capture Page Screenshot
     Clear Element Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[2]/input
     Input Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[2]/input    Labubu 2K
-    Sleep    2s
+    Sleep    3s
     Capture Page Screenshot
     Select From List By Label    //*[@id="department"]    HR
-    Sleep    2s
+    Sleep    3s
     Capture Page Screenshot
     Clear Element Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[4]/input
     Input Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[4]/input    1119600053770
-    Sleep    2s
+    Sleep    3s
     Capture Page Screenshot
     Clear Element Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[5]/input
     Input Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[5]/input    0624922180
-    Sleep    2s
+    Sleep    3s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div/div/form/button
     Sleep    2s
