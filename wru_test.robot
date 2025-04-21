@@ -601,8 +601,6 @@ TC-S407 Create Employees Invalid ID Card Format
     Input Text    //*[@id="root"]/div/div[4]/div/div/div[2]/form/div/div[4]/input    12345
     Input Text    //*[@id="root"]/div/div[4]/div/div/div[2]/form/div/div[5]/input    0624922194
     Sleep    2s
-    Input Text    //*[@id="root"]/div/div[4]/div/div/div[2]/form/div/div[6]/input    12345
-    Sleep    2s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[2]/form/button
     Sleep    5s
@@ -743,7 +741,7 @@ TC-S504 Edit Employees Success
     Sleep    1s
     Capture Page Screenshot
     Clear Element Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[5]/input
-    Input Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[5]/input    0624922180
+    Input Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[5]/input    0624922190
     Sleep    1s
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div/div/form/button
