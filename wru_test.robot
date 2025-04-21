@@ -271,6 +271,15 @@ TC-T301 Add worklog
     Input Text  //*[@id="root"]/div/div[4]/div/div/div[2]/div/div/form/div[4]/Input    1
     Sleep   2
     Capture Page Screenshot
+    Click Element   //*[@id="root"]/div/div[4]/div/div/div[2]/div/div/form/button
+    Sleep   30
+    Capture Page Screenshot
+    Click Element   //button[text()='Yes, submit']
+    Sleep   2
+    Capture Page Screenshot
+    Click Element   //button[text()='OK']
+    Sleep   2
+    Capture Page Screenshot
     Input Text   xpath://*[@id="root"]/div/div[4]/div/div/div[2]/div/div/form/div[1]/Input  22/04/2025
     Sleep   2
     Capture Page Screenshot
@@ -284,7 +293,7 @@ TC-T301 Add worklog
     Sleep   2
     Capture Page Screenshot
     Click Element   //*[@id="root"]/div/div[4]/div/div/div[2]/div/div/form/button
-    Sleep   30
+    Sleep   10
     Capture Page Screenshot
     Click Element   //button[text()='Yes, submit']
     Sleep   2
@@ -296,7 +305,7 @@ TC-T301 Add worklog
     Sleep    1
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[3]
-    Sleep   30
+    Sleep   20
     Click Element    xpath://*[@id="root"]/div/div[4]/header/div/div/nav/a[4]
     Sleep   15
     Capture Page Screenshot
@@ -316,7 +325,7 @@ TC-T301 Add worklog
     Sleep   2
     Capture Page Screenshot
     Click Element    xpath://*[@id="root"]/div/div[4]/div/div/div[1]/button[4]
-    Sleep   20
+    Sleep   25
     Capture Page Screenshot
     Click button     Approve
     Sleep   2
@@ -328,7 +337,7 @@ TC-T301 Add worklog
     Sleep   2
     Capture Page Screenshot
     Click button    Reject
-    Sleep   20
+    Sleep   15
     Capture Page Screenshot
     Click Element   //button[text()='OK']
     Sleep   2
