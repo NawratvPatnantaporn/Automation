@@ -115,6 +115,87 @@ TC-T105 Register with already exists phonenumber
     Sleep   5
     Capture Page Screenshot
 
+TC-S106 Register Invalid Email Format
+    Open Browser    http://localhost:5173/login    Chrome
+    Maximize Browser Window
+    Set Screenshot Directory    Email Format
+    Capture Page Screenshot
+    Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[2]
+    Sleep    2
+    Capture Page Screenshot
+    Input Text  email   nawarat25.com
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  name    Nawarat Patnantaporn
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  department  IT
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  idcard  1119600053792
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  phonenumber   0935680745
+    Sleep    2s
+    Capture Page Screenshot
+    Click Button    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
+    Sleep   2
+    Capture Page Screenshot
+
+TC-S107 Register Invalid Id Card Format
+    Open Browser    http://localhost:5173/login    Chrome
+    Maximize Browser Window
+    Set Screenshot Directory    Id Card Format
+    Capture Page Screenshot
+    Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[2]
+    Sleep    2
+    Capture Page Screenshot
+    Input Text  email   nawarat909@gmail.com
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  name    Nawarat Patnantaporn
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  department  IT
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  idcard  12345678
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  phonenumber   0935680787
+    Sleep    2s
+    Capture Page Screenshot
+    Click Button    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
+    Sleep   2
+    Capture Page Screenshot
+
+TC-S108 Register Invalid phonenumber Format
+    Open Browser    http://localhost:5173/login    Chrome
+    Maximize Browser Window
+    Set Screenshot Directory    Id Card Format
+    Capture Page Screenshot
+    Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[2]
+    Sleep    2
+    Capture Page Screenshot
+    Input Text  email   nawarat909@gmail.com
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  name    Nawarat Patnantaporn
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  department  IT
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  idcard  1234567890325
+    Sleep   1
+    Capture Page Screenshot
+    Input Text  phonenumber   05463212
+    Sleep    2s
+    Capture Page Screenshot
+    Click Button    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
+    Sleep   2
+    Capture Page Screenshot
+
 TC-T206 Login success
     Open Browser    http://localhost:5173/  Chrome  
     Maximize Browser Window
