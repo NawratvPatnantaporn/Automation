@@ -306,6 +306,14 @@ TC-T301 Add worklog
     Capture Page Screenshot
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[3]
     Sleep   20
+    Click button    Cancel
+    Sleep   2
+    Capture Page Screenshot
+    Click Element   //button[text()='Yes, cancel it!']
+    Sleep   2
+    Capture Page Screenshot
+    Click Element   //button[text()='OK']
+    Sleep   2
     Click Element    xpath://*[@id="root"]/div/div[4]/header/div/div/nav/a[4]
     Sleep   15
     Capture Page Screenshot
@@ -358,7 +366,7 @@ TC-T301 Add worklog
     Sleep   2
     Capture Page Screenshot
     Click Element    xpath://*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
-    Sleep   5
+    Sleep   10
     Click Button   //*[@id="root"]/div/div[4]/div/div/div[1]/button[3]
     Sleep   5
     Capture Page Screenshot
@@ -731,7 +739,7 @@ TC-S504 Edit Employees Success
     Sleep    1s
     Capture Page Screenshot
     Clear Element Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[4]/input
-    Input Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[4]/input    1119600053770
+    Input Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[4]/input    1119600053780
     Sleep    1s
     Capture Page Screenshot
     Clear Element Text    //*[@id="root"]/div/div[4]/div/div/div/div/form/div/div[5]/input
