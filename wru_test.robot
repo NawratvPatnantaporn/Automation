@@ -60,7 +60,7 @@ TC-T104 Register with already exists idcard
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[2]
     Sleep    2
     Capture Page Screenshot 
-    Input Text  email   nawarat25@gmail.com
+    Input Text  email   nawarat26@gmail.com
     Input Text  name   Nawarat Patnantaporn
     Input Text  department   IT
     Input Text  idcard   1339900768391
@@ -79,7 +79,7 @@ TC-T105 Register with already exists phonenumber
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[2]
     Sleep    2
     Capture Page Screenshot 
-    Input Text  email   nawarat25@gmail.com
+    Input Text  email   nawarat26@gmail.com
     Capture Page Screenshot
     Input Text  name   Nawarat Patnantaporn
     Capture Page Screenshot
