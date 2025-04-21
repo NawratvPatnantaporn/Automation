@@ -76,7 +76,7 @@ TC-T301 Add worklog
     Click Element   xpath://*[@id="root"]/div/div[4]/div/div/div[1]/button[1]
     Sleep   3
     Capture Page Screenshot
-    Input Text   xpath://*[@id="root"]/div/div[4]/div/div/div[2]/div/div/form/div[1]/Input  21/04/2025
+    Input Text   xpath://*[@id="root"]/div/div[4]/div/div/div[2]/div/div/form/div[1]/Input  22/04/2025
     Sleep   2
     Capture Page Screenshot
     Input Text  //*[@id="taskDetails"]     Codeing
@@ -97,7 +97,7 @@ TC-T301 Add worklog
     Click Element   //button[text()='OK']
     Sleep   2
     Capture Page Screenshot
-    Input Text   xpath://*[@id="root"]/div/div[4]/div/div/div[2]/div/div/form/div[1]/Input  21/04/2025
+    Input Text   xpath://*[@id="root"]/div/div[4]/div/div/div[2]/div/div/form/div[1]/Input  22/04/2025
     Sleep   2
     Capture Page Screenshot
     Input Text  //*[@id="taskDetails"]     Codeing
@@ -388,7 +388,7 @@ TC-S701 View Attendent
     Click Element    //*[@id="root"]/div/div[4]/div/div/div[1]/button[5]
     Sleep    7s
     Capture Page Screenshot
-    Input Text   //*[@id="root"]/div/div[4]/div/div/div[2]/div[1]/input  21/04/2025
+    Input Text   //*[@id="root"]/div/div[4]/div/div/div[2]/div[1]/input  22/04/2025
     Sleep   5
     Capture Page Screenshot
 
