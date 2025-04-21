@@ -10,10 +10,15 @@ TC-T105 Register Employees Account
     Capture Page Screenshot 
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[2]
     Input Text  email   nawarat25@gmail.com
+    Sleep   1
     Input Text  name   Nawarat Patnantaporn
+    Sleep   1
     Input Text  department   IT
+    Sleep   1
     Input Text  idcard   1339900768392
+    Sleep   1
     Input Text  phonenumber   0435216221
+    Sleep   1
     Capture Page Screenshot
     Sleep   15
     Capture Page Screenshot
@@ -42,10 +47,15 @@ TC-T103 Register with already exists email
     Sleep    2
     Capture Page Screenshot 
     Input Text  email   endoline2513@gmail.com
+    Sleep   1
     Input Text  name   Nawarat Patnantaporn
+    Sleep   1
     Input Text  department   IT
+    Sleep   1
     Input Text  idcard   1339900768392
+    Sleep   1
     Input Text  phonenumber   0435216222
+    Sleep   1
     Capture Page Screenshot
     Sleep   2
     Click Button    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
@@ -61,10 +71,15 @@ TC-T104 Register with already exists idcard
     Sleep    2
     Capture Page Screenshot 
     Input Text  email   nawarat26@gmail.com
+    Sleep   1
     Input Text  name   Nawarat Patnantaporn
+    Sleep   1
     Input Text  department   IT
+    Sleep   1
     Input Text  idcard   1339900768391
+    Sleep   1
     Input Text  phonenumber   0435216222
+    Sleep   1
     Capture Page Screenshot
     Sleep   2
     Click Button    //*[@id="root"]/div/div[4]/div/div/div[1]/form/button
@@ -80,14 +95,19 @@ TC-T105 Register with already exists phonenumber
     Sleep    2
     Capture Page Screenshot 
     Input Text  email   nawarat26@gmail.com
+    Sleep   1
     Capture Page Screenshot
     Input Text  name   Nawarat Patnantaporn
+    Sleep   1
     Capture Page Screenshot
     Input Text  department   IT
+    Sleep   1
     Capture Page Screenshot
     Input Text  idcard   1339900768392
+    Sleep   1
     Capture Page Screenshot
     Input Text  phonenumber   0935680745
+    Sleep   1
     Capture Page Screenshot
     Sleep   2
     Capture Page Screenshot
@@ -104,7 +124,9 @@ TC-T206 Login success
     Sleep    2
     Capture Page Screenshot 
     Input Text  email   enlone2513@gmail.com
+    Sleep   1
     Input Text  idcard   1339900768391
+    Sleep   1
     Capture Page Screenshot
     Sleep   5
     Capture Page Screenshot
