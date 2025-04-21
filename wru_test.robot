@@ -123,7 +123,7 @@ TC-T206 Login success
     Click Element    //*[@id="root"]/div/div[4]/header/div/div/nav/a[3]
     Sleep    2
     Capture Page Screenshot 
-    Input Text  email   enlone2513@gmail.com
+    Input Text  email   endoline2513@gmail.com
     Sleep   1
     Input Text  idcard   1339900768391
     Sleep   1
